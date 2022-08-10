@@ -1,15 +1,13 @@
-The simple shell project is a collaboration project. 
+0x16 C - Simple Shell
 
-BACKGROUND CONTEXT 
-Write a simple UNIX command interpreter.
+
+DESCRIPTION
+
+The simple shell project is a collaboration project.  The aim of this project is to create a simple UNIX command interpreter with limited functionality, but applying the core concepts of a more robust shell. The shell is a program that takes commands from the keyboard and gives them to the operating system to perform. It incorporates many features and generally executes other commands.
+
 
 LEARNING OBJECTIVES
-At the end of this project, we were expected to be able to explain to anyone, without the help of Google:
 
-- Who designed and implemented the original Unix operating system
-- Who wrote the first version of the UNIX shell
-- Who invented the B programming language (the direct predecessor to the C programming language)
-- Who is Ken Thompson
 - How does a shell work
 - What is a pid and a ppid
 - How to manipulate the environment of the current process
@@ -19,18 +17,3 @@ At the end of this project, we were expected to be able to explain to anyone, wi
 - How does the shell use the PATH to find the programs
 - How to execute another program with the execve system call
 - How to suspend the execution of a process until one of its children terminates
-- What is EOF / “end-of-file”?
-
-REQUIREMENTS
-- Allowed editors: vi, vim, emacs
-- All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-- All your files should end with a new line
-- A README.md file, at the root of the folder of the project is mandatory
-- Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
-- Your shell should not have any memory leaks
-- No more than 5 functions per file
-- All your header files should be include guarded
-- Use system calls only when you need to (why?)
-- Write a README with the description of your project
-- You should have an AUTHORS file at the root of your repository, listing all individuals having contributed content to the repository. Format, see Docker
-
