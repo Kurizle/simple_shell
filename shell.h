@@ -90,6 +90,7 @@ void signal_handler(int signo);
 char *_getenv(char *path_name);
 void index_cmd(sh_t *data);
 void array_rev(char *arr, int len);
+int _exits(char **args, char *old, char *new)
 
 /* ----------More tools prototype--------*/
 char *_itoa(unsigned int n);
